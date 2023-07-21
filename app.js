@@ -31,6 +31,12 @@ const glossary = [
     definition: 'DevOps is a set of techniques and tools created to help organizations create apps and services more quickly than with conventional software development methods.DevOps, to put it simply, aims to break down traditional divisions of work between development and operations teams. A DevOps framework involves development and operations teams working across the whole Software development lifecycle and testing to deployment and operations.',
     references: 'Techopedia. (2022, July 15). "DevOps." Techopedia. Available online: https://www.techopedia.com/definition/25995/devops (accessed July 21, 2023).'
   }
+  {
+    id: 5,
+    term: 'Software Development Life Cycle(SDLC)',
+    definition: 'Software development teams use the Software Development Life Cycle (SDLC), an organized and methodical process, to design, create, test, deploy, and manage software products. It includes a number of phases, processes, and procedures that ensure the effective and high-quality delivery of software.',
+    references: 'IEEE Computer Society. (1991). "IEEE Std 1074-1991: IEEE Standard for Developing Software Life Cycle Processes." IEEE Computer Society. doi: 10.1109/IEEESTD.1991.676105.'
+  },
   // Add more terms and descriptions here
 ];
 
