@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000; // You can use any port number you prefer
+const port = 3000; 
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
@@ -27,15 +27,39 @@ const glossary = [
   },
   {
     id: 4,
+    term: 'VS Code',
+    definition: 'Microsoft created Visual Studio Code, which is a free and open-source source code editor. The environment it offers developers to write, modify, and debug code in a variety of programming languages is extremely flexible and feature-rich. Because it has built-in support for extensions, an expanding market, and version control systems, VS Code is a popular option among developers for software development activities.',
+    references: 'Microsoft. (2022, July 21). "Visual Studio Code." Visual Studio Code. Available online: https://code.visualstudio.com/ (accessed July 21, 2023).'
+  },
+  {
+    id: 5,
+    term: 'NPM(Node Package Manager)',
+    definition: 'Node.js has a command-line tool called Node Package Manager. It functions as a package manager for JavaScript-based projects and enables programmers to quickly install, handle, and share reusable code modules (packages) from the npm registry. ',
+    references: 'npm. (2022, July 15). "Node Package Manager (NPM)." npm. Available online: https://www.npmjs.com/ (accessed July 21, 2023).'
+  },
+  {
+    id: 6,
     term: 'DevOps',
     definition: 'DevOps is a set of techniques and tools created to help organizations create apps and services more quickly than with conventional software development methods.DevOps, to put it simply, aims to break down traditional divisions of work between development and operations teams. A DevOps framework involves development and operations teams working across the whole Software development lifecycle and testing to deployment and operations.',
     references: 'Techopedia. (2022, July 15). "DevOps." Techopedia. Available online: https://www.techopedia.com/definition/25995/devops (accessed July 21, 2023).'
   },
   {
-    id: 5,
+    id: 7,
     term: 'Software Development Life Cycle(SDLC)',
     definition: 'Software development teams use the Software Development Life Cycle (SDLC), an organized and methodical process, to design, create, test, deploy, and manage software products. It includes a number of phases, processes, and procedures that ensure the effective and high-quality delivery of software.',
     references: 'IEEE Computer Society. (1991). "IEEE Std 1074-1991: IEEE Standard for Developing Software Life Cycle Processes." IEEE Computer Society. doi: 10.1109/IEEESTD.1991.676105.'
+  },
+  {
+    id: 8,
+    term: 'Microservices',
+    definition: 'Microservices is an architectural method for software development where a complicated application is broken down into smaller, independent, and loosely connected services. Every service has a distinct business capacity and is able to be independently developed, deployed, and scaled. ',
+    references: 'Fowler, M. (2014). "Microservices." martinfowler.com. Available online: https://martinfowler.com/articles/microservices.html (accessed July 21, 2023).'
+  },
+  {
+    id: 9,
+    term: 'Web Hosting',
+    definition: 'Web hosting refers to the process of storing and serving website files and data on a server connected to the internet. It enables individuals and organizations to make their websites accessible to users worldwide. Web hosting providers offer various hosting services, such as shared hosting, VPS hosting, dedicated hosting, and cloud hosting, each catering to different needs and levels of website traffic.',
+    references: 'Sharma, R., & Singh, A. (2019). "Web Hosting Services: A Comprehensive Review." International Journal of Innovative Technology and Exploring Engineering (IJITEE), 8(10), 1582-1587. doi: 10.35940/ijitee.L8498.0981019.'
   },
   // Add more terms and descriptions here
 ];
