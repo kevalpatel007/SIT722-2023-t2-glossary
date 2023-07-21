@@ -61,7 +61,13 @@ const glossary = [
     definition: 'Web hosting refers to the process of storing and serving website files and data on a server connected to the internet. It enables individuals and organizations to make their websites accessible to users worldwide. Web hosting providers offer various hosting services, such as shared hosting, VPS hosting, dedicated hosting, and cloud hosting, each catering to different needs and levels of website traffic.',
     references: 'Sharma, R., & Singh, A. (2019). "Web Hosting Services: A Comprehensive Review." International Journal of Innovative Technology and Exploring Engineering (IJITEE), 8(10), 1582-1587. doi: 10.35940/ijitee.L8498.0981019.'
   },
-  // Add more terms and descriptions here
+  {
+    id: 10,
+    term: 'Agile Methodology',
+    definition: 'Software development using the agile methodology places a focus on adaptation, flexibility, and user input. It encourages teamwork and the idea of continuous improvement by having cross-functional teams work in short development cycles known as sprints or iterations.',
+    references: 'Cockburn, A. (2001). "Agile Software Development: The People Factor." Computer, 34(11), 131-133. doi: 10.1109/2.962417.'
+  },
+  
 ];
 
 app.get('/', (req, res) => {
