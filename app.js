@@ -67,7 +67,12 @@ const glossary = [
     definition: 'Software development using the agile methodology places a focus on adaptation, flexibility, and user input. It encourages teamwork and the idea of continuous improvement by having cross-functional teams work in short development cycles known as sprints or iterations.',
     references: 'Cockburn, A. (2001). "Agile Software Development: The People Factor." Computer, 34(11), 131-133. doi: 10.1109/2.962417.'
   },
-  
+  {
+    id: 11,
+    term: 'Software Productivity',
+    definition: 'Software productivity refers to the efficiency and effectiveness with which software is developed or maintained, typically measured by the amount of output (e.g., lines of code, features) produced relative to the resources (e.g., time, effort) invested.',
+    references: 'IEEE Standard Glossary of Software Engineering Terminology, IEEE Std 610.12-1990.'
+  },  
 ];
 
 app.get('/', (req, res) => {
