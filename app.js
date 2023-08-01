@@ -105,7 +105,7 @@ const glossary = [
   },
   {
     id: 17,
-    term: 'DevOps phase 1: Operations',
+    term: 'DevOps phase 2: Operations',
     definition: 'This phase involves the activities related to the management and operation of software systems and infrastructure. It encompasses tasks such as system monitoring, log management, performance optimization, security management, incident response, and ensuring the overall availability and reliability of the system.',
     references: 'P. Perera, R. Silva and I. Perera, "Improve software quality through practicing DevOps," 2017 Seventeenth International Conference on Advances in ICT for Emerging Regions (ICTer), Colombo, Sri Lanka, 2017, pp. 1-6, doi: 10.1109/ICTER.2017.8257807.'
   },
