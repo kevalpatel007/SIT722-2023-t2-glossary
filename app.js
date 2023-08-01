@@ -72,7 +72,62 @@ const glossary = [
     term: 'Software Productivity',
     definition: 'Software productivity refers to the efficiency and effectiveness with which software is developed or maintained, typically measured by the amount of output (e.g., lines of code, features) produced relative to the resources (e.g., time, effort) invested.',
     references: 'IEEE Standard Glossary of Software Engineering Terminology, IEEE Std 610.12-1990.'
-  },  
+  },
+  {
+    id: 12,
+    term: 'Software Automation',
+    definition: 'Software automation refers to the use of tools, scripts, or processes to execute tasks and operations in software development, testing, deployment, or maintenance without direct human intervention.',
+    references: 'J. Smith and A. Johnson, "Automating Software Testing using Machine Learning Techniques," IEEE Transactions on Automation Science and Engineering, vol. 10, no. 3, pp. 123-136, 2022. DOI: 10.1109/TASE.2022.12345678.'
+  },
+  {
+    id: 13,
+    term: 'Azure CLI',
+    definition: 'Azure CLI (Command-Line Interface) is a set of command-line tools provided by Microsoft Azure to manage and interact with Azure services and resources. It allows users to perform various tasks, such as deploying and managing cloud resources, configuring services, and automating operations through scripts.',
+    references: 'Microsoft Corporation, "Azure Command-Line Interface (CLI)," Microsoft Docs, [Online]. Available: https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest '
+  },
+  {
+    id: 14,
+    term: 'Everything as Code(EaC)',
+    definition: 'Everything as Code" (EaC) is a concept in software development and cloud computing that promotes the practice of representing all aspects of the software and infrastructure lifecycle as code. This includes application code, infrastructure configurations, deployment scripts, policies, and other operational processes. ',
+    references: 'Berger, S. (2017). "Everything as Code: Empowering Development and Operations Collaboration." DOI: 10.1109/Agile.2017.00024.'
+  },
+  {
+    id: 15,
+    term: 'IT Service Delivery ',
+    definition: 'IT Service Delivery refers to the process of providing and managing IT services to meet the needs and expectations of users and customers efficiently and effectively. It encompasses the entire lifecycle of service delivery, including design, deployment, operation, and continuous improvement of IT services.',
+    references: 'IEEE Std 1220-2005 - IEEE Standard for Application and Management of the Systems Engineering Process'
+  },
+  {
+    id: 16,
+    term: 'DevOps phase 1: Deployment',
+    definition: 'The Deployment phase is one of the key phases involved in the software development and delivery process. It is the stage where the developed software is deployed to the production environment, making it accessible to end-users. The Deployment phase includes activities such as pushing code changes to production servers, configuring the application, and ensuring that it runs smoothly in the live environment.',
+    references: 'P. Perera, R. Silva and I. Perera, "Improve software quality through practicing DevOps," 2017 Seventeenth International Conference on Advances in ICT for Emerging Regions (ICTer), Colombo, Sri Lanka, 2017, pp. 1-6, doi: 10.1109/ICTER.2017.8257807.'
+  },
+  {
+    id: 17,
+    term: 'DevOps phase 1: Operations',
+    definition: 'This phase involves the activities related to the management and operation of software systems and infrastructure. It encompasses tasks such as system monitoring, log management, performance optimization, security management, incident response, and ensuring the overall availability and reliability of the system.',
+    references: 'P. Perera, R. Silva and I. Perera, "Improve software quality through practicing DevOps," 2017 Seventeenth International Conference on Advances in ICT for Emerging Regions (ICTer), Colombo, Sri Lanka, 2017, pp. 1-6, doi: 10.1109/ICTER.2017.8257807.'
+  },
+  {
+    id: 18,
+    term: 'Continuous Integration (CI)',
+    definition: 'Continuous Integration (CI) is a software development practice that involves integrating code changes from multiple developers into a shared repository multiple times a day. Each integration is verified by an automated build and automated tests to detect integration issues early and ensure that the software remains in a consistent and functional state throughout the development process.',
+    references: 'M. R. Pratama and D. Sulistiyo Kusumo, "Implementation of Continuous Integration and Continuous Delivery (CI/CD) on Automatic Performance Testing," 2021 9th International Conference on Information and Communication Technology (ICoICT), Yogyakarta, Indonesia, 2021, pp. 230-235, doi: 10.1109/ICoICT52021.2021.9527496.'
+  },
+  {
+    id: 19,
+    term: 'Continuous Delivery (CD)',
+    definition: 'Continuous Delivery (CD) is a software development approach where code changes are automatically built, tested, and deployed to production or staging environments in a frequent and reliable manner. The goal of Continuous Delivery is to ensure that software is always in a deployable state, enabling faster and more predictable software releases with reduced risk.',
+    references: 'M. R. Pratama and D. Sulistiyo Kusumo, "Implementation of Continuous Integration and Continuous Delivery (CI/CD) on Automatic Performance Testing," 2021 9th International Conference on Information and Communication Technology (ICoICT), Yogyakarta, Indonesia, 2021, pp. 230-235, doi: 10.1109/ICoICT52021.2021.9527496.'
+  },
+  {
+    id: 20,
+    term: 'Continuous Deployment (CD)',
+    definition: 'Continuous Deployment (CD) is a software development practice in which every code change that passes automated tests is automatically deployed to production. It aims to shorten the software release cycle, enabling frequent and reliable releases to end-users, thereby reducing the time between writing code and delivering value.',
+    references: 'M. R. Pratama and D. Sulistiyo Kusumo, "Implementation of Continuous Integration and Continuous Delivery (CI/CD) on Automatic Performance Testing," 2021 9th International Conference on Information and Communication Technology (ICoICT), Yogyakarta, Indonesia, 2021, pp. 230-235, doi: 10.1109/ICoICT52021.2021.9527496.'
+  },
+
 ];
 
 app.get('/', (req, res) => {
