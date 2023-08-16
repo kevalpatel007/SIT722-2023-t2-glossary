@@ -169,6 +169,24 @@ const glossary = [
     definition: 'A multi-container application is a software application that is composed of multiple individual containers that work together to provide the complete functionality of the application. Each container within the application is designed to perform a specific task or function, and these containers communicate and interact with each other to deliver the overall application capabilities',
     references: 'P. P. T and C. Kumar, "Building cloud native application — analysis for multi-component application deployment," 2021 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2021, pp. 1-6, doi: 10.1109/ICCCI50826.2021.9402422.'
   },
+  {
+    id: 28,
+    term: 'Git',
+    definition: 'A distributed version control system used to track changes in source code and manage collaborative development projects.',
+    references: 'https://git-scm.com/'
+  },
+  {
+    id: 29,
+    term: 'YAML',
+    definition: 'YAML (YAML Aint Markup Language) is a popular human-readable data serialization standard for configuration files and data transfer between programs. It is frequently used in software development, especially for configuring apps, establishing infrastructure, and making deployment manifests for container orchestration platforms.',
+    references: 'YAML Aint Markup Language (YAML) Version 1.2. YAML Specification. Available: https://yaml.org/spec/1.2/spec.html. Accessed on: August 16, 2023.'
+  },
+  {
+    id: 30,
+    term: 'Docker Copose',
+    definition: ' Docker Compose is used to create and execute multi-container Docker applications. With only one YAML file, you can create a full application stack made up of numerous interconnected services, networks, and volumes. The task of managing complicated applications with several containers and their dependencies is made simpler by Docker Compose.',
+    references: 'D. Reis, B. Piedade, F. F. Correia, J. P. Dias and A. Aguiar, "Developing Docker and Docker-Compose Specifications: A Developers’ Survey," in IEEE Access, vol. 10, pp. 2318-2329, 2022, doi: 10.1109/ACCESS.2021.3137671.'
+  },
 
 
 ];
