@@ -133,6 +133,43 @@ const glossary = [
     definition: 'IaC is a practice in software engineering that includes handling and providing computer infrastructure with code and automation tools. It treats infrastructure like software, enabling consistent, repeatable, and scalable deployment and management.',
     references: 'A. Dalvi, "Cloud Infrastructure Self Service Delivery System using Infrastructure as Code," 2022 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS), Greater Noida, India, 2022, pp. 1-6, doi: 10.1109/ICCCIS56430.2022.10037603.'
   },
+  {
+    id: 22,
+    term: 'Container',
+    definition: 'A container is a small, independent, executable software package that encapsulates an application along with all of its dependencies and runtime environment. This allows for consistent and effective deployment across a range of computing systems.',
+    references: 'O. Sallou and C. Monjeaud, "GO-Docker: A Batch Scheduling System with Docker Containers," 2015 IEEE International Conference on Cluster Computing, Chicago, IL, USA, 2015, pp. 514-515, doi: 10.1109/CLUSTER.2015.89.'
+  },
+  {
+    id: 23,
+    term: 'Virtual Machine(VM)',
+    definition: 'An operating system and applications are run on a virtual machine (VM), which is a software-based simulation of a physical computer. The ability to run many instances of various operating systems on a single physical machine enables isolation, resource management, and flexibility in managing and deploying software environments.',
+    references: 'Virtual Machine Definition," Available: https://www.vmware.com/au/topics/glossary/content/virtual-machine.html. Accessed on: August 16, 2023'
+  },
+  {
+    id: 24,
+    term: 'Docker image',
+    definition: 'A lightweight, standalone, executable software package known as a "Docker image" includes a program along with all of its dependencies, libraries, and configuration files. The creation and operation of containers, which offer an isolated and dependable environment for applications to run across various computer environments, is made possible through the use of Docker images.',
+    references: '0. Sallou and C. Monjeaud, "GO-Docker: A Batch Scheduling System with Docker Containers," 2015 IEEE International Conference on Cluster Computing, Chicago, IL, USA, 2015, pp. 514-515, doi: 10.1109/CLUSTER.2015.89.'
+  },
+  {
+    id: 25,
+    term: 'Cotainer Repository',
+    definition: 'A container repository is an organized mechanism for storing and distributing container images. It functions as a repository for keeping several versions of container images, making it simpler to manage, share, and deploy these images across different settings. Versioning, access control, and connection with platforms for container orchestration are common characteristics found in container repositories.',
+    references: '0. Sallou and C. Monjeaud, "GO-Docker: A Batch Scheduling System with Docker Containers," 2015 IEEE International Conference on Cluster Computing, Chicago, IL, USA, 2015, pp. 514-515, doi: 10.1109/CLUSTER.2015.89.'
+  },
+  {
+    id: 26,
+    term: 'Cloud-native Application',
+    definition: 'A cloud-native application is a software application that is designed and built specifically to take full advantage of cloud computing environments and principles. Cloud-native applications are typically architected using microservices, containers, and orchestration tools, such as Kubernetes.',
+    references: 'P. P. T and C. Kumar, "Building cloud native application — analysis for multi-component application deployment," 2021 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2021, pp. 1-6, doi: 10.1109/ICCCI50826.2021.9402422.'
+  },
+  {
+    id: 27,
+    term: 'Multi Container Applications',
+    definition: 'A multi-container application is a software application that is composed of multiple individual containers that work together to provide the complete functionality of the application. Each container within the application is designed to perform a specific task or function, and these containers communicate and interact with each other to deliver the overall application capabilities',
+    references: 'P. P. T and C. Kumar, "Building cloud native application — analysis for multi-component application deployment," 2021 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2021, pp. 1-6, doi: 10.1109/ICCCI50826.2021.9402422.'
+  },
+
 
 ];
 
