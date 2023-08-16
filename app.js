@@ -127,6 +127,12 @@ const glossary = [
     definition: 'Continuous Deployment (CD) is a software development practice in which every code change that passes automated tests is automatically deployed to production. It aims to shorten the software release cycle, enabling frequent and reliable releases to end-users, thereby reducing the time between writing code and delivering value.',
     references: 'M. R. Pratama and D. Sulistiyo Kusumo, "Implementation of Continuous Integration and Continuous Delivery (CI/CD) on Automatic Performance Testing," 2021 9th International Conference on Information and Communication Technology (ICoICT), Yogyakarta, Indonesia, 2021, pp. 230-235, doi: 10.1109/ICoICT52021.2021.9527496.'
   },
+  {
+    id: 21,
+    term: 'Infrastructure as Code(IaC)',
+    definition: 'IaC is a practice in software engineering that includes handling and providing computer infrastructure with code and automation tools. It treats infrastructure like software, enabling consistent, repeatable, and scalable deployment and management.',
+    references: 'A. Dalvi, "Cloud Infrastructure Self Service Delivery System using Infrastructure as Code," 2022 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS), Greater Noida, India, 2022, pp. 1-6, doi: 10.1109/ICCCIS56430.2022.10037603.'
+  },
 
 ];
 
