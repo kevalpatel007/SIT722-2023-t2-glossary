@@ -246,9 +246,67 @@ const glossary = [
     term: 'Kubernetes',
     definition: 'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications across clusters of servers. It provides a highly flexible and efficient way to manage container workloads in a distributed environment.',
     references: 'J. Shah and D. Dubaria, "Building Modern Clouds: Using Docker, Kubernetes & Google Cloud Platform," 2019 IEEE 9th Annual Computing and Communication Workshop and Conference (CCWC), Las Vegas, NV, USA, 2019, pp. 0184-0189, doi: 10.1109/CCWC.2019.8666479.'
+  },
+  {
+    id: 41,
+    term: 'REST API',
+    definition: 'A Representational State Transfer (REST) API is a software architectural style for designing networked applications. It uses standard HTTP methods like GET, POST, PUT, and DELETE to manipulate resources identified by URLs. ',
+    references: 'Fielding, R. T. (2000). Architectural Styles and the Design of Network-based Software Architectures. University of California, Irvine.)'
+  },
+  {
+    id: 42,
+    term: 'Automated Testing and its type',
+    definition: 'Automated testing in Microservices is the practice of using automated tools and scripts to verify the functionality, performance, and reliability of individual microservices within a distributed software system. Types of automated testing in this context include Unit Testing, Integration Testing, and End-to-End Testing.',
+    references: 'Y. WANG, L. CHENG and X. SUN, "Design and Research of Microservice Application Automation Testing Framework," 2019 International Conference on Information Technology and Computer Application (ITCA), Guangzhou, China, 2019, pp. 257-260, doi: 10.1109/ITCA49981.2019.00063.'
+  },
+  {
+    id: 43,
+    term: 'Unit testing',
+    definition: 'Unit testing in microservices is a software testing approach where individual  functions within a microservice are isolated and tested independently to ensure their correctness and reliability.',
+    references: 'Y. WANG, L. CHENG and X. SUN, "Design and Research of Microservice Application Automation Testing Framework," 2019 International Conference on Information Technology and Computer Application (ITCA), Guangzhou, China, 2019, pp. 257-260, doi: 10.1109/ITCA49981.2019.00063.'
+  },
+  {
+    id: 44,
+    term: 'Integration testing',
+    definition: 'Integration testing in microservices is a software testing approach that focuses on verifying the interactions and communication between different microservices within a distributed system. It ensures that the individual services can work together as a cohesive whole by testing how they exchange data, and share resources across their interfaces.',
+    references: 'Y. WANG, L. CHENG and X. SUN, "Design and Research of Microservice Application Automation Testing Framework," 2019 International Conference on Information Technology and Computer Application (ITCA), Guangzhou, China, 2019, pp. 257-260, doi: 10.1109/ITCA49981.2019.00063.'
+  },
+  {
+    id: 45,
+    term: 'End-to-end testing',
+    definition: 'End-to-end testing in microservices is a comprehensive testing approach that verifies the functionality and interactions of an entire microservices-based application from the user interface or entry point through multiple interconnected microservices, ensuring that all components work together.',
+    references: 'Y. WANG, L. CHENG and X. SUN, "Design and Research of Microservice Application Automation Testing Framework," 2019 International Conference on Information Technology and Computer Application (ITCA), Guangzhou, China, 2019, pp. 257-260, doi: 10.1109/ITCA49981.2019.00063.'
+  },
+  {
+    id: 46,
+    term: 'Jest Tool - for JavaScript based application',
+    definition: 'Jest is a popular JavaScript testing framework commonly used for testing microservices and other JavaScript-based applications. It provides a comprehensive and user-friendly environment for writing and executing unit tests, integration tests, and various other types of tests to ensure the reliability and correctness of microservice components.',
+    references: 'T. Duan et al., "Design and Implementation of Intelligent Automated Testing of Microservice Application," 2021 IEEE 5th Information Technology,Networking,Electronic and Automation Control Conference (ITNEC), Xian, China, 2021, pp. 1306-1309, doi: 10.1109/ITNEC52019.2021.9587260.'
   }, 
-
-
+  {
+    id: 47,
+    term: 'Cypress tool - for browser based application',
+    definition: 'Cypress is a popular end-to-end testing framework used in microservices architecture to automate browser-based testing of user interfaces and interactions with microservices. Cypress offers real-time debugging, automatic waiting, and a wide range of testing capabilities, making it a valuable tool for ensuring the reliability and performance of microservices-based applications.',
+    references: 'T. Duan et al., "Design and Implementation of Intelligent Automated Testing of Microservice Application," 2021 IEEE 5th Information Technology,Networking,Electronic and Automation Control Conference (ITNEC), Xian, China, 2021, pp. 1306-1309, doi: 10.1109/ITNEC52019.2021.9587260.'
+  },
+  {
+    id: 48,
+    term: 'Metadata for Microservice',
+    definition: 'Metadata for microservices refers to structured information or data associated with individual microservices within a distributed system. This information typically includes details such as service name, version, dependencies, endpoints, and configuration settings. Metadata is crucial for service discovery, load balancing, and orchestration in microservices architecture.',
+    references: 'OpenAI, "OpenAI Chat," [Online]. Available: https://chat.openai.com. [Accessed:September 20,2023] '
+  },
+  {
+    id: 49,
+    term: 'DevSecOps',
+    definition: 'DevSecOps is a software development approach that integrates security practices into the DevOps process, emphasizing collaboration between development, IT operations, and security teams. It aims to automate security testing and ensure that security measures are an integral part of the software development lifecycle, from code creation to deployment, enhancing the overall security posture of applications and infrastructure. ',
+    references: 'A. Ibrahim, A. H. Yousef and W. Medhat, "DevSecOps: A Security Model for Infrastructure as Code Over the Cloud," 2022 2nd International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC), Cairo, Egypt, 2022, pp. 284-288, doi: 10.1109/MIUCC55081.2022.9781709.'
+  },
+  {
+    id: 50,
+    term: 'ML & AI in DevOos ',
+    definition: 'Machine Learning (ML) and Artificial Intelligence (AI) in DevOps involves using AI/ML algorithms to automate and optimize various aspects of software development and deployment, such as continuous integration, continuous delivery, testing, monitoring, and anomaly detection. The goal is to enhance efficiency, predict and prevent issues, and improve overall software delivery pipelines.',
+    references: 'A. Ibrahim, A. H. Yousef and W. Medhat, "DevSecOps: A Security Model for Infrastructure as Code Over the Cloud," 2022 2nd International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC), Cairo, Egypt, 2022, pp. 284-288, doi: 10.1109/MIUCC55081.2022.9781709.'
+  },
 
 
 ];
